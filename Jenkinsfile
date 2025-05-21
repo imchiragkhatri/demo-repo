@@ -1,1 +1,1 @@
-pipeline { agent any; stages { stage('Main Build') { steps { echo 'Building main branch' } } }
+pipeline { agent any; stages { stage('Developer Build') { steps { echo 'Building developer branch' } } }
